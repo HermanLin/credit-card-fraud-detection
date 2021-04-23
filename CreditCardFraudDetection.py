@@ -9,3 +9,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('creditcard.csv')
 print(df.shape)
 # %%
+df.dropna('columns')
+print(df.shape)
+# %%
