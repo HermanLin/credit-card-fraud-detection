@@ -1,0 +1,33 @@
+
+
+==========================
+Accuracy on training data = [0.9806389157792836]
+Accuracy on testing data = [0.9729119638826185]
+=== Confusion Matrices ===
+Training: 
+[[1717    7]
+ [  33  309]]
+Testing: 
+[[733   3]
+ [ 21 129]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1724
+         1.0       0.98      0.90      0.94       342
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.96      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.98       736
+         1.0       0.98      0.86      0.91       150
+
+    accuracy                           0.97       886
+   macro avg       0.97      0.93      0.95       886
+weighted avg       0.97      0.97      0.97       886
+
