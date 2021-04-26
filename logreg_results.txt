@@ -1,33 +1,473 @@
 
 
-==========================
-Accuracy on training data = [0.9806389157792836]
-Accuracy on testing data = [0.9729119638826185]
+============================== Logistic Regression without Regularization ==============================
+Accuracy on training data = [0.9791868344627299]
+Accuracy on testing data = [0.9717832957110609]
 === Confusion Matrices ===
 Training: 
-[[1717    7]
- [  33  309]]
+[[1731    5]
+ [  38  292]]
 Testing: 
-[[733   3]
- [ 21 129]]
+[[720   4]
+ [ 21 141]]
 === Class Reports ===
 Training: 
               precision    recall  f1-score   support
 
-         0.0       0.98      1.00      0.99      1724
-         1.0       0.98      0.90      0.94       342
+         0.0       0.98      1.00      0.99      1736
+         1.0       0.98      0.88      0.93       330
 
     accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.96      2066
+   macro avg       0.98      0.94      0.96      2066
 weighted avg       0.98      0.98      0.98      2066
 
 Testing: 
               precision    recall  f1-score   support
 
-         0.0       0.97      1.00      0.98       736
-         1.0       0.98      0.86      0.91       150
+         0.0       0.97      0.99      0.98       724
+         1.0       0.97      0.87      0.92       162
 
     accuracy                           0.97       886
    macro avg       0.97      0.93      0.95       886
+weighted avg       0.97      0.97      0.97       886
+
+
+
+============================== Logistic Regression with L1 Regularization ==============================
+===== C VALUE: 0.0001 =====
+Accuracy on training data = [0.8291384317521782]
+Accuracy on testing data = [0.8431151241534989]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [ 353    0]]
+Testing: 
+[[747   0]
+ [139   0]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.83      1.00      0.91      1713
+         1.0       0.00      0.00      0.00       353
+
+    accuracy                           0.83      2066
+   macro avg       0.41      0.50      0.45      2066
+weighted avg       0.69      0.83      0.75      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.84      1.00      0.91       747
+         1.0       0.00      0.00      0.00       139
+
+    accuracy                           0.84       886
+   macro avg       0.42      0.50      0.46       886
+weighted avg       0.71      0.84      0.77       886
+
+===== C VALUE: 0.001 =====
+Accuracy on training data = [0.8291384317521782]
+Accuracy on testing data = [0.8431151241534989]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [ 353    0]]
+Testing: 
+[[747   0]
+ [139   0]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.83      1.00      0.91      1713
+         1.0       0.00      0.00      0.00       353
+
+    accuracy                           0.83      2066
+   macro avg       0.41      0.50      0.45      2066
+weighted avg       0.69      0.83      0.75      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.84      1.00      0.91       747
+         1.0       0.00      0.00      0.00       139
+
+    accuracy                           0.84       886
+   macro avg       0.42      0.50      0.46       886
+weighted avg       0.71      0.84      0.77       886
+
+===== C VALUE: 0.01 =====
+Accuracy on training data = [0.9545014520813165]
+Accuracy on testing data = [0.9424379232505643]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [  93  260]]
+Testing: 
+[[747   0]
+ [ 51  88]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.97      1713
+         1.0       1.00      0.74      0.85       353
+
+    accuracy                           0.95      2066
+   macro avg       0.97      0.87      0.91      2066
+weighted avg       0.96      0.95      0.95      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.94      1.00      0.97       747
+         1.0       1.00      0.63      0.78       139
+
+    accuracy                           0.94       886
+   macro avg       0.97      0.82      0.87       886
+weighted avg       0.95      0.94      0.94       886
+
+===== C VALUE: 0.1 =====
+Accuracy on training data = [0.9772507260406583]
+Accuracy on testing data = [0.9706546275395034]
+=== Confusion Matrices ===
+Training: 
+[[1710    3]
+ [  44  309]]
+Testing: 
+[[745   2]
+ [ 24 115]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.99      1713
+         1.0       0.99      0.88      0.93       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.94      0.96      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.98       747
+         1.0       0.98      0.83      0.90       139
+
+    accuracy                           0.97       886
+   macro avg       0.98      0.91      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 1 =====
+Accuracy on training data = [0.9820909970958374]
+Accuracy on testing data = [0.9661399548532731]
+=== Confusion Matrices ===
+Training: 
+[[1709    4]
+ [  33  320]]
+Testing: 
+[[739   8]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.92      0.93       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 10 =====
+Accuracy on training data = [0.9825750242013552]
+Accuracy on testing data = [0.9683972911963883]
+=== Confusion Matrices ===
+Training: 
+[[1708    5]
+ [  31  322]]
+Testing: 
+[[741   6]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.98      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.95      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.92      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 100 =====
+Accuracy on training data = [0.9825750242013552]
+Accuracy on testing data = [0.9672686230248307]
+=== Confusion Matrices ===
+Training: 
+[[1708    5]
+ [  31  322]]
+Testing: 
+[[740   7]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.98      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.92      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+
+
+============================== Logistic Regression with L2 Regularization ==============================
+===== C VALUE: 0.0001 =====
+Accuracy on training data = [0.8693126815101646]
+Accuracy on testing data = [0.8679458239277652]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [ 270   83]]
+Testing: 
+[[747   0]
+ [117  22]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.86      1.00      0.93      1713
+         1.0       1.00      0.24      0.38       353
+
+    accuracy                           0.87      2066
+   macro avg       0.93      0.62      0.65      2066
+weighted avg       0.89      0.87      0.83      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.86      1.00      0.93       747
+         1.0       1.00      0.16      0.27       139
+
+    accuracy                           0.87       886
+   macro avg       0.93      0.58      0.60       886
+weighted avg       0.89      0.87      0.82       886
+
+===== C VALUE: 0.001 =====
+Accuracy on training data = [0.9288480154888674]
+Accuracy on testing data = [0.9130925507900677]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [ 147  206]]
+Testing: 
+[[747   0]
+ [ 77  62]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.92      1.00      0.96      1713
+         1.0       1.00      0.58      0.74       353
+
+    accuracy                           0.93      2066
+   macro avg       0.96      0.79      0.85      2066
+weighted avg       0.93      0.93      0.92      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.91      1.00      0.95       747
+         1.0       1.00      0.45      0.62       139
+
+    accuracy                           0.91       886
+   macro avg       0.95      0.72      0.78       886
+weighted avg       0.92      0.91      0.90       886
+
+===== C VALUE: 0.01 =====
+Accuracy on training data = [0.9699903194578896]
+Accuracy on testing data = [0.9571106094808126]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [  62  291]]
+Testing: 
+[[747   0]
+ [ 38 101]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.98      1713
+         1.0       1.00      0.82      0.90       353
+
+    accuracy                           0.97      2066
+   macro avg       0.98      0.91      0.94      2066
+weighted avg       0.97      0.97      0.97      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.95      1.00      0.98       747
+         1.0       1.00      0.73      0.84       139
+
+    accuracy                           0.96       886
+   macro avg       0.98      0.86      0.91       886
+weighted avg       0.96      0.96      0.95       886
+
+===== C VALUE: 0.1 =====
+Accuracy on training data = [0.978702807357212]
+Accuracy on testing data = [0.9683972911963883]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [  43  310]]
+Testing: 
+[[744   3]
+ [ 25 114]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       1.00      0.88      0.93       353
+
+    accuracy                           0.98      2066
+   macro avg       0.99      0.94      0.96      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      1.00      0.98       747
+         1.0       0.97      0.82      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.97      0.91      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 1 =====
+Accuracy on training data = [0.9830590513068732]
+Accuracy on testing data = [0.9661399548532731]
+=== Confusion Matrices ===
+Training: 
+[[1710    3]
+ [  32  321]]
+Testing: 
+[[739   8]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.99      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.92      0.93       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 10 =====
+Accuracy on training data = [0.9830590513068732]
+Accuracy on testing data = [0.9683972911963883]
+=== Confusion Matrices ===
+Training: 
+[[1709    4]
+ [  31  322]]
+Testing: 
+[[741   6]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.95      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.92      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+===== C VALUE: 100 =====
+Accuracy on training data = [0.9825750242013552]
+Accuracy on testing data = [0.9672686230248307]
+=== Confusion Matrices ===
+Training: 
+[[1708    5]
+ [  31  322]]
+Testing: 
+[[740   7]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.98      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.98      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.92      0.94       886
 weighted avg       0.97      0.97      0.97       886
 

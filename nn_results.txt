@@ -1,0 +1,381 @@
+
+
+============================== Neural Network with ReLU Activation ==============================
+=============== Iterations: 443, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9956437560503388]
+Accuracy on testing data = [0.9774266365688488]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [   8  345]]
+Testing: 
+[[742   5]
+ [ 15 124]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.98      0.99       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      0.99      0.99      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.99       747
+         1.0       0.96      0.89      0.93       139
+
+    accuracy                           0.98       886
+   macro avg       0.97      0.94      0.96       886
+weighted avg       0.98      0.98      0.98       886
+
+=============== Iterations: 261, Hidden Layers: (22, 22) ===============
+Accuracy on training data = [0.9990319457889641]
+Accuracy on testing data = [0.9695259593679458]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [   2  351]]
+Testing: 
+[[737  10]
+ [ 17 122]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.99      1.00       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      1.00      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98       747
+         1.0       0.92      0.88      0.90       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.93      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 165, Hidden Layers: (22, 22, 22) ===============
+Accuracy on training data = [1.0]
+Accuracy on testing data = [0.9672686230248307]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [   0  353]]
+Testing: 
+[[736  11]
+ [ 18 121]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      1.00      1.00       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      1.00      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98       747
+         1.0       0.92      0.87      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.93      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 405, Hidden Layers: 30 ===============
+Accuracy on training data = [0.9966118102613747]
+Accuracy on testing data = [0.9717832957110609]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [   6  347]]
+Testing: 
+[[739   8]
+ [ 17 122]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.98      0.99       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      0.99      0.99      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98       747
+         1.0       0.94      0.88      0.91       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.93      0.95       886
+weighted avg       0.97      0.97      0.97       886
+
+
+
+============================== Neural Network with tanh Activation ==============================
+=============== Iterations: 472, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9966118102613747]
+Accuracy on testing data = [0.9683972911963883]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [   7  346]]
+Testing: 
+[[736  11]
+ [ 17 122]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.98      0.99       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      0.99      0.99      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98       747
+         1.0       0.92      0.88      0.90       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.93      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 371, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9995159728944821]
+Accuracy on testing data = [0.9661399548532731]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [   0  353]]
+Testing: 
+[[732  15]
+ [ 15 124]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      1.00      1.00       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      1.00      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.98      0.98       747
+         1.0       0.89      0.89      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.94      0.94      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 233, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9990319457889641]
+Accuracy on testing data = [0.9661399548532731]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [   2  351]]
+Testing: 
+[[733  14]
+ [ 16 123]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.99      1.00       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      1.00      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.98      0.98       747
+         1.0       0.90      0.88      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.94      0.93      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 455, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9980638915779284]
+Accuracy on testing data = [0.963882618510158]
+=== Confusion Matrices ===
+Training: 
+[[1713    0]
+ [   4  349]]
+Testing: 
+[[734  13]
+ [ 19 120]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.99      0.99       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      0.99      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.98      0.98       747
+         1.0       0.90      0.86      0.88       139
+
+    accuracy                           0.96       886
+   macro avg       0.94      0.92      0.93       886
+weighted avg       0.96      0.96      0.96       886
+
+
+
+============================== Neural Network with Logistic (Sigmoid) Activation ==============================
+=============== Iterations: 198, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9830590513068732]
+Accuracy on testing data = [0.9661399548532731]
+=== Confusion Matrices ===
+Training: 
+[[1710    3]
+ [  32  321]]
+Testing: 
+[[739   8]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.99      0.95      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.84      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.92      0.93       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 270, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9835430784123911]
+Accuracy on testing data = [0.9683972911963883]
+=== Confusion Matrices ===
+Training: 
+[[1709    4]
+ [  30  323]]
+Testing: 
+[[739   8]
+ [ 20 119]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.92      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.99      0.96      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.94      0.86      0.89       139
+
+    accuracy                           0.97       886
+   macro avg       0.96      0.92      0.94       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 867, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9980638915779284]
+Accuracy on testing data = [0.9729119638826185]
+=== Confusion Matrices ===
+Training: 
+[[1712    1]
+ [   3  350]]
+Testing: 
+[[737  10]
+ [ 14 125]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00      1713
+         1.0       1.00      0.99      0.99       353
+
+    accuracy                           1.00      2066
+   macro avg       1.00      1.00      1.00      2066
+weighted avg       1.00      1.00      1.00      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98       747
+         1.0       0.93      0.90      0.91       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.94      0.95       886
+weighted avg       0.97      0.97      0.97       886
+
+=============== Iterations: 187, Hidden Layers: 22 ===============
+Accuracy on training data = [0.9835430784123911]
+Accuracy on testing data = [0.9650112866817155]
+=== Confusion Matrices ===
+Training: 
+[[1710    3]
+ [  31  322]]
+Testing: 
+[[738   9]
+ [ 22 117]]
+=== Class Reports ===
+Training: 
+              precision    recall  f1-score   support
+
+         0.0       0.98      1.00      0.99      1713
+         1.0       0.99      0.91      0.95       353
+
+    accuracy                           0.98      2066
+   macro avg       0.99      0.96      0.97      2066
+weighted avg       0.98      0.98      0.98      2066
+
+Testing: 
+              precision    recall  f1-score   support
+
+         0.0       0.97      0.99      0.98       747
+         1.0       0.93      0.84      0.88       139
+
+    accuracy                           0.97       886
+   macro avg       0.95      0.91      0.93       886
+weighted avg       0.96      0.97      0.96       886
+
