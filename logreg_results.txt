@@ -1,473 +1,247 @@
 
 
 ============================== Logistic Regression without Regularization ==============================
-Accuracy on training data = [0.9791868344627299]
-Accuracy on testing data = [0.9717832957110609]
+Accuracy on training data = [0.9762826718296225]
+Accuracy on testing data = [0.963882618510158]
 === Confusion Matrices ===
 Training: 
-[[1731    5]
- [  38  292]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[720   4]
- [ 21 141]]
+[[726  11]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1736
-         1.0       0.98      0.88      0.93       330
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.94      0.96      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       724
-         1.0       0.97      0.87      0.92       162
-
-    accuracy                           0.97       886
-   macro avg       0.97      0.93      0.95       886
-weighted avg       0.97      0.97      0.97       886
-
+(array([0.97188755, 0.92086331]), array([0.98507463, 0.8590604 ]), array([0.97843666, 0.88888889]), array([737, 149], dtype=int64))
 
 
 ============================== Logistic Regression with L1 Regularization ==============================
 ===== C VALUE: 0.0001 =====
-Accuracy on training data = [0.8291384317521782]
-Accuracy on testing data = [0.8431151241534989]
+Accuracy on training data = [0.8339787028073572]
+Accuracy on testing data = [0.8318284424379232]
 === Confusion Matrices ===
 Training: 
-[[1713    0]
- [ 353    0]]
+[[1723    0]
+ [ 343    0]]
 Testing: 
-[[747   0]
- [139   0]]
+[[737   0]
+ [149   0]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.83      1.00      0.91      1713
-         1.0       0.00      0.00      0.00       353
-
-    accuracy                           0.83      2066
-   macro avg       0.41      0.50      0.45      2066
-weighted avg       0.69      0.83      0.75      2066
-
+(array([0.8339787, 0.       ]), array([1., 0.]), array([0.9094748, 0.       ]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.84      1.00      0.91       747
-         1.0       0.00      0.00      0.00       139
-
-    accuracy                           0.84       886
-   macro avg       0.42      0.50      0.46       886
-weighted avg       0.71      0.84      0.77       886
+(array([0.83182844, 0.        ]), array([1., 0.]), array([0.9081947, 0.       ]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.001 =====
-Accuracy on training data = [0.8291384317521782]
-Accuracy on testing data = [0.8431151241534989]
+Accuracy on training data = [0.8339787028073572]
+Accuracy on testing data = [0.8318284424379232]
 === Confusion Matrices ===
 Training: 
-[[1713    0]
- [ 353    0]]
+[[1723    0]
+ [ 343    0]]
 Testing: 
-[[747   0]
- [139   0]]
+[[737   0]
+ [149   0]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.83      1.00      0.91      1713
-         1.0       0.00      0.00      0.00       353
-
-    accuracy                           0.83      2066
-   macro avg       0.41      0.50      0.45      2066
-weighted avg       0.69      0.83      0.75      2066
-
+(array([0.8339787, 0.       ]), array([1., 0.]), array([0.9094748, 0.       ]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.84      1.00      0.91       747
-         1.0       0.00      0.00      0.00       139
-
-    accuracy                           0.84       886
-   macro avg       0.42      0.50      0.46       886
-weighted avg       0.71      0.84      0.77       886
+(array([0.83182844, 0.        ]), array([1., 0.]), array([0.9081947, 0.       ]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.01 =====
-Accuracy on training data = [0.9545014520813165]
-Accuracy on testing data = [0.9424379232505643]
+Accuracy on training data = [0.9501452081316554]
+Accuracy on testing data = [0.95372460496614]
 === Confusion Matrices ===
 Training: 
-[[1712    1]
- [  93  260]]
+[[1722    1]
+ [ 102  241]]
 Testing: 
-[[747   0]
- [ 51  88]]
+[[737   0]
+ [ 41 108]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.95      1.00      0.97      1713
-         1.0       1.00      0.74      0.85       353
-
-    accuracy                           0.95      2066
-   macro avg       0.97      0.87      0.91      2066
-weighted avg       0.96      0.95      0.95      2066
-
+(array([0.94407895, 0.99586777]), array([0.99941962, 0.70262391]), array([0.97096138, 0.82393162]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.94      1.00      0.97       747
-         1.0       1.00      0.63      0.78       139
-
-    accuracy                           0.94       886
-   macro avg       0.97      0.82      0.87       886
-weighted avg       0.95      0.94      0.94       886
+(array([0.94730077, 1.        ]), array([1.        , 0.72483221]), array([0.97293729, 0.84046693]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.1 =====
-Accuracy on training data = [0.9772507260406583]
-Accuracy on testing data = [0.9706546275395034]
+Accuracy on training data = [0.9757986447241046]
+Accuracy on testing data = [0.9740406320541761]
 === Confusion Matrices ===
 Training: 
-[[1710    3]
- [  44  309]]
+[[1720    3]
+ [  47  296]]
 Testing: 
-[[745   2]
- [ 24 115]]
+[[735   2]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      1.00      0.99      1713
-         1.0       0.99      0.88      0.93       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.94      0.96      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97340125, 0.98996656]), array([0.99825885, 0.86297376]), array([0.98567335, 0.92211838]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      1.00      0.98       747
-         1.0       0.98      0.83      0.90       139
-
-    accuracy                           0.97       886
-   macro avg       0.98      0.91      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97222222, 0.98461538]), array([0.9972863, 0.8590604]), array([0.98459478, 0.91756272]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 1 =====
-Accuracy on training data = [0.9820909970958374]
+Accuracy on training data = [0.9762826718296225]
 Accuracy on testing data = [0.9661399548532731]
 === Confusion Matrices ===
 Training: 
-[[1709    4]
- [  33  320]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[739   8]
- [ 22 117]]
+[[728   9]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.99      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.94      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.95      0.92      0.93       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97196262, 0.93430657]), array([0.98778833, 0.8590604 ]), array([0.97981157, 0.8951049 ]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 10 =====
-Accuracy on training data = [0.9825750242013552]
-Accuracy on testing data = [0.9683972911963883]
+Accuracy on training data = [0.9762826718296225]
+Accuracy on testing data = [0.963882618510158]
 === Confusion Matrices ===
 Training: 
-[[1708    5]
- [  31  322]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[741   6]
- [ 22 117]]
+[[726  11]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.98      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.95      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.96      0.92      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97188755, 0.92086331]), array([0.98507463, 0.8590604 ]), array([0.97843666, 0.88888889]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 100 =====
-Accuracy on training data = [0.9825750242013552]
-Accuracy on testing data = [0.9672686230248307]
+Accuracy on training data = [0.9762826718296225]
+Accuracy on testing data = [0.963882618510158]
 === Confusion Matrices ===
 Training: 
-[[1708    5]
- [  31  322]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[740   7]
- [ 22 117]]
+[[726  11]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.98      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.94      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.96      0.92      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97188755, 0.92086331]), array([0.98507463, 0.8590604 ]), array([0.97843666, 0.88888889]), array([737, 149], dtype=int64))
 
 
 
 ============================== Logistic Regression with L2 Regularization ==============================
 ===== C VALUE: 0.0001 =====
-Accuracy on training data = [0.8693126815101646]
-Accuracy on testing data = [0.8679458239277652]
+Accuracy on training data = [0.861568247821878]
+Accuracy on testing data = [0.8589164785553047]
 === Confusion Matrices ===
 Training: 
-[[1713    0]
- [ 270   83]]
+[[1723    0]
+ [ 286   57]]
 Testing: 
-[[747   0]
- [117  22]]
+[[737   0]
+ [125  24]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.86      1.00      0.93      1713
-         1.0       1.00      0.24      0.38       353
-
-    accuracy                           0.87      2066
-   macro avg       0.93      0.62      0.65      2066
-weighted avg       0.89      0.87      0.83      2066
-
+(array([0.85764062, 1.        ]), array([1.        , 0.16618076]), array([0.92336549, 0.285     ]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.86      1.00      0.93       747
-         1.0       1.00      0.16      0.27       139
-
-    accuracy                           0.87       886
-   macro avg       0.93      0.58      0.60       886
-weighted avg       0.89      0.87      0.82       886
+(array([0.8549884, 1.       ]), array([1.        , 0.16107383]), array([0.92182614, 0.27745665]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.001 =====
-Accuracy on training data = [0.9288480154888674]
-Accuracy on testing data = [0.9130925507900677]
+Accuracy on training data = [0.9230396902226524]
+Accuracy on testing data = [0.9266365688487584]
 === Confusion Matrices ===
 Training: 
-[[1713    0]
- [ 147  206]]
+[[1722    1]
+ [ 158  185]]
 Testing: 
-[[747   0]
- [ 77  62]]
+[[737   0]
+ [ 65  84]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.92      1.00      0.96      1713
-         1.0       1.00      0.58      0.74       353
-
-    accuracy                           0.93      2066
-   macro avg       0.96      0.79      0.85      2066
-weighted avg       0.93      0.93      0.92      2066
-
+(array([0.91595745, 0.99462366]), array([0.99941962, 0.5393586 ]), array([0.95587011, 0.69943289]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.91      1.00      0.95       747
-         1.0       1.00      0.45      0.62       139
-
-    accuracy                           0.91       886
-   macro avg       0.95      0.72      0.78       886
-weighted avg       0.92      0.91      0.90       886
+(array([0.91895262, 1.        ]), array([1.        , 0.56375839]), array([0.95776478, 0.72103004]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.01 =====
-Accuracy on training data = [0.9699903194578896]
-Accuracy on testing data = [0.9571106094808126]
+Accuracy on training data = [0.9641819941916747]
+Accuracy on testing data = [0.9717832957110609]
 === Confusion Matrices ===
 Training: 
-[[1713    0]
- [  62  291]]
+[[1722    1]
+ [  73  270]]
 Testing: 
-[[747   0]
- [ 38 101]]
+[[737   0]
+ [ 25 124]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      1.00      0.98      1713
-         1.0       1.00      0.82      0.90       353
-
-    accuracy                           0.97      2066
-   macro avg       0.98      0.91      0.94      2066
-weighted avg       0.97      0.97      0.97      2066
-
+(array([0.95933148, 0.99630996]), array([0.99941962, 0.78717201]), array([0.97896532, 0.87947883]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.95      1.00      0.98       747
-         1.0       1.00      0.73      0.84       139
-
-    accuracy                           0.96       886
-   macro avg       0.98      0.86      0.91       886
-weighted avg       0.96      0.96      0.95       886
+(array([0.9671916, 1.       ]), array([1.        , 0.83221477]), array([0.98332221, 0.90842491]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 0.1 =====
-Accuracy on training data = [0.978702807357212]
-Accuracy on testing data = [0.9683972911963883]
+Accuracy on training data = [0.9743465634075508]
+Accuracy on testing data = [0.9706546275395034]
 === Confusion Matrices ===
 Training: 
-[[1712    1]
- [  43  310]]
+[[1720    3]
+ [  50  293]]
 Testing: 
-[[744   3]
- [ 25 114]]
+[[733   4]
+ [ 22 127]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       1.00      0.88      0.93       353
-
-    accuracy                           0.98      2066
-   macro avg       0.99      0.94      0.96      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97175141, 0.98986486]), array([0.99825885, 0.85422741]), array([0.9848268, 0.9170579]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      1.00      0.98       747
-         1.0       0.97      0.82      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.97      0.91      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97086093, 0.96946565]), array([0.99457259, 0.85234899]), array([0.98257373, 0.90714286]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 1 =====
-Accuracy on training data = [0.9830590513068732]
+Accuracy on training data = [0.9767666989351403]
 Accuracy on testing data = [0.9661399548532731]
 === Confusion Matrices ===
 Training: 
-[[1710    3]
- [  32  321]]
+[[1713   10]
+ [  38  305]]
 Testing: 
-[[739   8]
- [ 22 117]]
+[[728   9]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.99      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.99      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97829812, 0.96825397]), array([0.99419617, 0.88921283]), array([0.98618307, 0.92705167]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.94      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.95      0.92      0.93       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97196262, 0.93430657]), array([0.98778833, 0.8590604 ]), array([0.97981157, 0.8951049 ]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 10 =====
-Accuracy on training data = [0.9830590513068732]
-Accuracy on testing data = [0.9683972911963883]
+Accuracy on training data = [0.9762826718296225]
+Accuracy on testing data = [0.963882618510158]
 === Confusion Matrices ===
 Training: 
-[[1709    4]
- [  31  322]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[741   6]
- [ 22 117]]
+[[726  11]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.99      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.95      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.96      0.92      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97188755, 0.92086331]), array([0.98507463, 0.8590604 ]), array([0.97843666, 0.88888889]), array([737, 149], dtype=int64))
 
 ===== C VALUE: 100 =====
-Accuracy on training data = [0.9825750242013552]
-Accuracy on testing data = [0.9672686230248307]
+Accuracy on training data = [0.9762826718296225]
+Accuracy on testing data = [0.963882618510158]
 === Confusion Matrices ===
 Training: 
-[[1708    5]
- [  31  322]]
+[[1712   11]
+ [  38  305]]
 Testing: 
-[[740   7]
- [ 22 117]]
+[[726  11]
+ [ 21 128]]
 === Class Reports ===
 Training: 
-              precision    recall  f1-score   support
-
-         0.0       0.98      1.00      0.99      1713
-         1.0       0.98      0.91      0.95       353
-
-    accuracy                           0.98      2066
-   macro avg       0.98      0.95      0.97      2066
-weighted avg       0.98      0.98      0.98      2066
-
+(array([0.97828571, 0.96518987]), array([0.99361579, 0.88921283]), array([0.98589116, 0.92564492]), array([1723,  343], dtype=int64))
 Testing: 
-              precision    recall  f1-score   support
-
-         0.0       0.97      0.99      0.98       747
-         1.0       0.94      0.84      0.89       139
-
-    accuracy                           0.97       886
-   macro avg       0.96      0.92      0.94       886
-weighted avg       0.97      0.97      0.97       886
+(array([0.97188755, 0.92086331]), array([0.98507463, 0.8590604 ]), array([0.97843666, 0.88888889]), array([737, 149], dtype=int64))
 
